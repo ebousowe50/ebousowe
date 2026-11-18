@@ -1,6 +1,6 @@
 # Ebou A. Sowe — Academic Profile
 
-Academic website for Ebou A. Sowe, PhD student in Computer Science at Wuhan University of Technology. Includes biography, current medical image compression research, publications, education, service, and an academic CV.
+Academic website for Ebou A. Sowe, doctoral student at the School of Artificial Intelligence, Wuhan University of Technology, under the supervision of Prof. Junwei Zhou.
 
 Website address after GitHub Pages is enabled: https://ebousowe50.github.io/ebousowe/
 
@@ -10,7 +10,8 @@ In this repository, open **Settings → Pages**. Under **Build and deployment**,
 
 ## Edit the site
 
-- `index.html`: profile, research, publication list, and contact information.
+- `index.html`: biography, selected publications, professional experience, education, academic service, courses, and contact information.
+- `publications.html`: full citations, DOI and reading links, and topic filters. The homepage links to each paper by its section ID.
 - `cv.html`: print-friendly academic CV.
 - `assets/config.js`: GitHub and optional Google Scholar profile links.
 - `assets/style.css`: responsive layout and print styles.
@@ -19,4 +20,4 @@ In this repository, open **Settings → Pages**. Under **Build and deployment**,
 
 All local links are relative, so the site works under the repository path. No build tools, external services, or secrets are required. `.nojekyll` makes GitHub Pages serve the static files directly.
 
-Current research is presented as work in progress, separately from published articles. The original personal CV PDF is not included.
+Use the print button on the academic CV to save a PDF.
